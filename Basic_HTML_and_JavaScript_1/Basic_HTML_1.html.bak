@@ -1,0 +1,8 @@
+<!DOCTYPE HTML>
+<html>
+	<script src="Basic_JavaScript_1.js"></script>
+	<p><font color="red" face="Arial" size="2"><b>Red</b></font></p>
+	<p><font color="#6495ED" face="Impact" size="4"><u>Cornflower Blue</u></font></p>
+	<p><font color="green" face="Verdana" size="6"><i>Green</i></font></p>
+	<img src="border_collie.jpg" alt="Border Collie" width="400" height="400">
+</html>
