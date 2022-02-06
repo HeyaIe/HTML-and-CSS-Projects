@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<style>
+			table, th, td{border:1px solid black; width:20%}
+			td:hover{background-color:yellow; color:blue;}
+		</style>
+		<h1>Household</h1>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+			</tr>
+			<tr>
+				<td>Heyale</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>Amberlin</td>
+				<td>3</td>
+			</tr>
+		</table>
+	</body>
+</html
+

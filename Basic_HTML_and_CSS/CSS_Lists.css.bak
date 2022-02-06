@@ -1,0 +1,12 @@
+ul.a{
+	list-style-type:circle;
+	font-family: Verdana;
+}
+ul.b{
+	list-style-type:square;
+	font-family:Georgia;
+}
+ol.c{
+	list-style-type:lower-alpha;
+	font-family:Corbel;
+}
