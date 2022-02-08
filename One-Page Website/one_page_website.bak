@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>crème de la drème</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./css/style_1.css">
+	</head>
+	<body>
+		
+		<!-- NAV -->
+		<section>
+			<div>
+				<div>
+					<nav>
+						<ul class="menuItems">
+							<a href="#home" id="link"><li>HOME</li></a>
+							<a href="#gallery"><li>GALLERY</li></a>
+							<a href="#booking"><li>BOOKINGS</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</section>
+		<!-- END NAV -->
+		
+		
+		<!-- HOME -->
+		<div id="home">
+			<div>
+				<img class="logo" src="./images/image_7.png" alt="logo">
+			</div>
+		</div>
+		<!-- END HOME -->
+		
+		<!-- VIDEO -->
+		<section>
+			<div>
+				<video autoplay muted loop id="myVideo">
+					<source src="./video/video_1.mp4" type="video/mp4">
+				</video>
+			</div>
+		</section>
+		<!-- END VIDEO -->
+		
+		<!-- GALLERY -->
+		<h1 class="style1">Gallery</h1>
+		<div class="container" id="gallery">
+			<div class="gallery">					
+				<img src="./images/image_1.png" alt="Niagara Falls" align="middle">
+					<div class="desc">Niagara Falls, Ontario</div>
+			</div>
+			<div class="gallery">
+				<img src="./images/image_2.png" alt="Whistler" align="middle">
+					<div class="desc">Whistler, British Columbia</div>
+			</div>
+			<div class="gallery">
+				<img src="./images/image_3.png" alt="Ottawa Parliament">
+					<div class="desc">Ottawa Parliament, Ontarop</div>
+			</div>
+			<div class="gallery">
+				<img src="./images/image_4.png" alt="Gros Morne National Park">
+					<div class="desc">Gros Morne National Park, Newfoundland</div>
+			</div>
+			<div class="gallery">
+				<img src="./images/image_5.png" alt="Victoria's Inner Harbour">
+					<div class="desc">Victoria's Inner Harbour, British Columbia</div>
+			</div>
+			<div class="gallery">
+				<img src="./images/image_6.png" alt="Moraine Lake">
+					<div class="desc">Moraine Lake, Alberta</div>
+			</div>
+		</div>
+		
+		<div class="container2">
+			<!-- RSVP -->
+			<div id="booking">
+				<div>
+					<h1 align="center">Bookings</h1>
+					<div>
+						<h2>
+							<span style="font-family:mv boli">
+								Want to explore some of Canada's beautiful sights?<br />
+								Book with us today!
+							</span>
+						</h2>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<footer>
+		<p class="style2"> &copy; 2022 <br>
+			Bryan, All Rights Reserved
+		</p>
+	</footer>
+</html>
