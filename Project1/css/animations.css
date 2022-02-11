@@ -43,6 +43,7 @@
 }
 
 .photo-container{
+    float: left;
     text-align: center;
     margin: 15px auto;
     width: 400px;
@@ -50,27 +51,24 @@
 }
 
 .photo-container1{
-    width: 400px;
+    width: 600px;
     height: 300px;
     float: left;
 }
 
 .photo1{
+    position: relative;
     float: left;
-}
-
-/* Image */
-.photo-container1 img{
-    max-width: 100%;
-    width: 400px;
-    height: 300px;
-    border-radius: 16px;
+    margin-right: 100px;
+    right: 160px;
+    margin: 5px;
 }
 
 .photo-container img{
     max-width: 100%;
     width: 400px;
     height: 250px;
+    border-radius: 8px;
 }
 
 .photo-overlay{
@@ -118,3 +116,4 @@
 .photo:hover img{
     transform: scale(1.1);
 }
+

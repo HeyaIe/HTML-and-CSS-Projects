@@ -333,3 +333,30 @@ section{
     padding: 20px 50px 20px 50px;
     text-align: right;
 }
+
+.info::after{
+    display: block;
+    content: "";
+    height: 2px;
+    width: 250px;
+    background: #e91c1c;
+    box-shadow: 5px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-right: 100px;
+}
+
+.text-p{
+    float: right;
+    padding-right: 80px;
+}
+
+.text-p h3{
+    color: firebrick;
+    margin-top: 5%;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    font-size: 21px;
+}
+
+.summary{
+    line-height: 25px;
+}
