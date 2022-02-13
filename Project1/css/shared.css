@@ -119,10 +119,10 @@ section{
     /* This ensures that the images cannot render
        outside of their container without forcing
        any scrollbars */
-       overflow: hidden;
-       top: 0;
-       left:0;
-       text-align: center;
+    overflow: hidden;
+    top: 0;
+    left:0;
+    text-align: center;
 }
 
 .menu-container{
