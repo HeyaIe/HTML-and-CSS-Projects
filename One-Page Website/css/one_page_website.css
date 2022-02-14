@@ -1,0 +1,135 @@
+li{
+    position: relative;
+    margin-left: 10px;
+    float: right;
+}
+
+.style1{
+	text-align: center;
+    font-size: 3em;
+    margin-top: 60px;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.style1::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: orange;
+    margin: 2px auto 10px;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.style2{
+	text-align: center;
+}
+
+.desc{
+	text-indent: 15px;
+    color: #fff;
+}
+
+#myVideo{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.menuItems{
+	display: inline;
+}
+
+.logo{
+	margin-top: 100px;
+	height: 100px;
+	width: 500px;
+	display: inline-block;
+}
+
+nav{
+	margin-top: 100px;
+	background-color: transparent;
+	text-indent: 65%;
+}
+
+li{
+	color: yellow;
+	display: inline;
+	margin: 2.5%;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1200px;
+	max-height: 500px;
+	margin: auto;
+	background: cornsilk;
+	overflow: auto;
+	
+}
+
+.container2{
+	max-width: 1500px;
+	max-height: 1000px;
+	margin: auto;
+	background: moccasin;
+	text-align: center;
+}
+
+
+	
+.gallery{
+	margin: 60px;
+	border:5px solid black;
+	float: left;
+	width: 450px;
+	font-size: large;
+	border-radius: 30px;
+	background-color: black;
+}
+
+.gallery img{
+	width: 100%;
+	height: auto;
+	border-radius: 25px;
+}
+
+body{
+	background-color: lightyellow;
+}
+
+input.rsvp{
+	align-content: center;
+	width: 200px;
+	display: block;
+	margin: 5px 50px 0px 525px;
+	border: 1px solid black;
+	box-shadow: 2px 2px 4px grey;
+	border-radius: 4px;
+}
+
+.rsvp:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.form-spacer{
+	margin: 10px;
+}
+
+.terms{
+	margin: 10px;
+	padding-right: 10px;
+}
+
+.terms:hover{
+    color: orange;
+    text-decoration: underline;
+}

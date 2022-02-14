@@ -1,0 +1,22 @@
+body, html{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background: url(amalia.png) no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    /* This is the spacer before the main title logo */
+    padding-top: 350px;
+    /* This is the spacer after the main title logo */
+    padding-bottom: 500px;
+    color: #fff;
+    position: fixed;
+}
