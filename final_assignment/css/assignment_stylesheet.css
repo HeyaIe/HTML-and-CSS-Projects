@@ -1,0 +1,189 @@
+body{
+    min-height: 100%;
+}
+
+.container{
+    display: block;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: blur(10px) opacity(95%);
+    border-radius: 10px;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: aliceblue;
+    padding-top: 20px;
+    height: 40px;
+}
+
+.navbar a{
+    color: navy;
+
+    
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+.photo{
+    position: relative;
+    margin-top: 100px;
+}
+
+.image-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.column{
+    margin: -2px;
+    width: 48.5%;
+    padding: 10px;
+    height: 300px;
+    display:inline-block;
+    color: purple;
+  }
+
+.row{
+    text-align: center;
+}
+
+
+footer{
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-weight: 400px;
+    font-variant: small-caps;
+
+    
+}
+
+table{
+    border-style: double;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+th, td{
+    text-align: center;
+    border-style: solid;
+    opacity: 40%;
+    padding: 5px;
+}
+
+th{
+    background-color: aliceblue;
+}
+
+.textanim{
+    color: orchid;
+}
+
+.textanim:hover{
+    font-family: monospace;
+    font-size: 2em;
+    cursor: pointer;
+    
+}
+
+.textanim2{
+    transition: transform .5 ease-in-out;
+    animation-duration: 3s;
+    
+}
+
+.textanim2:hover{
+    transform: scale(.5);
+    animation-iteration-count: infinite;
+    animation-name: race;
+    cursor: pointer;
+    font-size: large;
+    color: tomato;
+}
+
+@keyframes race{
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+}
+
+.photocon img{
+    margin-top: 50px;
+    opacity: 1;
+    filter: blur(0px) opacity(100%);
+    transition: 1s ease-in;
+    
+}
+
+.photooverlay{
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    font-size: 4em;
+}
+
+.photocon img:hover{
+    opacity: 0.5;
+}
+
+video{
+    position: relative;
+    border-radius: 5px;
+	display: block;
+	width: 50%;
+	height: 30%;
+    margin: auto;
+}
+
+.videocontainer1 video{
+    opacity: 1;
+    transition: 1s ease-in;
+}
+
+.videooverlay{
+    color: black;
+    position: absolute;
+    top: 1600px;
+    left: 600px;
+    z-index: -1;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+.videocontainer1 video:hover{
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 600px){
+    html{
+     background-color: lightgoldenrodyellow;   
+    }
+}
