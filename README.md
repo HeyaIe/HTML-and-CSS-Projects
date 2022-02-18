@@ -2,7 +2,6 @@
 This repository contains a collection of sample web pages that I created using HTML and CSS.
 
 ## Projects
----
 - Love, Dog Site
 - Movie Theater Site
 
