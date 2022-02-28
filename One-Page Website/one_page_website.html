@@ -3,23 +3,20 @@
 	<head>
 		<title>crème de la drème</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
+		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+		<script src="js/one_page_website.js" defer></script>
 	</head>
 	<body>
 		
 		<!-- NAV -->
 		<section>
-			<div>
-				<div>
-					<nav>
-						<ul class="menuItems">
-							<a href="#home" id="link"><li>HOME</li></a>
-							<a href="#gallery"><li>GALLERY</li></a>
-							<a href="#booking"><li>BOOKINGS</li></a>
-						</ul>
-					</nav>
-				</div>
-			</div>
+			<nav>
+				<ul class="menuItems">
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#booking"><li>BOOKINGS</li></a>
+				</ul>
+			</nav>
 		</section>
 		<!-- END NAV -->
 		
@@ -36,30 +33,69 @@
 		
 		<!-- GALLERY -->
 		<h1 class="style1">Gallery</h1>
-		<div class="container" id="gallery">
+		
+		<!-- Lightbox -->
+		<div class="container">
+			<div id="myModal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+					<div class="mySlides">
+						<img src="./images/image_1.png" style="width:50%">
+					</div>
+					
+					
+					<div class="mySlides">
+						<img src="./images/image_2.png" style="width:50%">
+					</div>
+
+					<div class="mySlides">
+						<img src="./images/image_3.png" style="width:50%">
+					</div>
+
+					<div class="mySlides">
+						<img src="./images/image_4.png" style="width:50%">
+					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+
+				<div class="column">
+					<img class="demo cursor" src="./images/image_1.png"
+						style="width:100%" onclick="currentSlide(1)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/image_2.png"
+						style="width:100%" onclick="currentSlide(2)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/image_3.png"
+						style="width:100%" onclick="currentSlide(3)">
+				</div>
+				<div class="column">
+					<img class="demo cursor" src="./images/image_4.png"
+						style="width:100%" onclick="currentSlide(4)">
+				</div>	
+
+			</div>
+			<!-- END Lightbox -->
+
 			<div class="gallery">					
-				<img src="./images/image_1.png" alt="Niagara Falls" align="middle">
+				<img src="./images/image_1.png" alt="Niagara Falls" onclick="openModal(); currentSlide(1)">
 					<div class="desc">Niagara Falls, Ontario</div>
 			</div>
 			<div class="gallery">
-				<img src="./images/image_2.png" alt="Whistler" align="middle">
+				<img src="./images/image_2.png" alt="Whistler" onclick="openModal(); currentSlide(2)">
 					<div class="desc">Whistler, British Columbia</div>
 			</div>
 			<div class="gallery">
-				<img src="./images/image_3.png" alt="Ottawa Parliament">
+				<img src="./images/image_3.png" alt="Ottawa Parliament" onclick="openModal(); currentSlide(3)">
 					<div class="desc">Ottawa Parliament, Ontarop</div>
 			</div>
 			<div class="gallery">
-				<img src="./images/image_4.png" alt="Gros Morne National Park">
+				<img src="./images/image_4.png" alt="Gros Morne National Park" onclick="openModal(); currentSlide(4)">
 					<div class="desc">Gros Morne National Park, Newfoundland</div>
-			</div>
-			<div class="gallery">
-				<img src="./images/image_5.png" alt="Victoria's Inner Harbour">
-					<div class="desc">Victoria's Inner Harbour, British Columbia</div>
-			</div>
-			<div class="gallery">
-				<img src="./images/image_6.png" alt="Moraine Lake">
-					<div class="desc">Moraine Lake, Alberta</div>
 			</div>
 		</div>
 		
