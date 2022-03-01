@@ -212,12 +212,12 @@ input.rsvp{
 }
 
 .prev{
-	margin-left: 30px;
+	margin-left: 2%;
 }
 
 .next{
 	right: 0;
-	margin-right: 20px;
+	margin-right: 2%;
 	border-radius: 3px 0 0 3px;
 }
 
